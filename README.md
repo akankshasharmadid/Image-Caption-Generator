@@ -35,6 +35,7 @@ A new benchmark collection for sentence-based image description and search, cons
 [(Back to top)](#table-of-contents)
 -	Dataset Downloading:
        -	The Kaggle API was utilized to download the dataset from Kaggle, which comprised multiple captions for each image. All five captions were used to train the neural network, posing the challenge of cleaning these captions.
+         
 -	Captions underwent various preprocessing steps:
        -	Removal of stopwords.
        -	Removal of punctuation.
