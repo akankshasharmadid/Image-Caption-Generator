@@ -33,24 +33,24 @@ A new benchmark collection for sentence-based image description and search, cons
 ## Methods Used
 [(Back to top)](#table-of-contents)
 -	Dataset Downloading:
-o	The Kaggle API was utilized to download the dataset from Kaggle, which comprised multiple captions for each image. All five captions were used to train the neural network, posing the challenge of cleaning these captions.
-o	Captions underwent various preprocessing steps:
-	Removal of stopwords.
-	Removal of punctuation.
-	Elimination of unnecessary spaces.
-	Addition of start and end tokens, crucial for training the model using Neural Network.
-	Utilization of Count Vectorizer to convert text data into numerical format.
-	Tokenization for converting text sequences into sequences of integers.
+-	The Kaggle API was utilized to download the dataset from Kaggle, which comprised multiple captions for each image. All five captions were used to train the neural network, posing the challenge of cleaning these captions.
+-	Captions underwent various preprocessing steps:
+-	Removal of stopwords.
+-	Removal of punctuation.
+-	Elimination of unnecessary spaces.
+-	Addition of start and end tokens, crucial for training the model using Neural Network.
+-	Utilization of Count Vectorizer to convert text data into numerical format.
+-	Tokenization for converting text sequences into sequences of integers.
 -	Transfer Learning:
-o	To expedite the training process, the VGG16 pre-trained model was employed. VGG16 is known for its efficacy in image classification tasks and allowed the extraction of image features.
+-	To expedite the training process, the VGG16 pre-trained model was employed. VGG16 is known for its efficacy in image classification tasks and allowed the extraction of image features.
 -	LSTM Model Training:
-o	Subsequently, the LSTM (Long Short-Term Memory) model was employed to train the network. LSTM is adept at capturing long-term dependencies in sequential data, making it suitable for generating textual captions.
+-	Subsequently, the LSTM (Long Short-Term Memory) model was employed to train the network. LSTM is adept at capturing long-term dependencies in sequential data, making it suitable for generating textual captions.
 -	Dual Input for Neural Network:
-o	The Neural Network received two types of inputs:
-	Image Input: Image features were extracted from the VGG16 model.
-	Text Input: An embedding layer with LSTM was utilized to capture the long-term context of words within the captions.
+-	The Neural Network received two types of inputs:
+-	Image Input: Image features were extracted from the VGG16 model.
+-	Text Input: An embedding layer with LSTM was utilized to capture the long-term context of words within the captions.
 -	Merge and Caption Generation:
-o	The extracted image features and text embeddings were merged in the neural network, culminating in a Dense layer responsible for generating the caption corresponding to the input image.
+-	The extracted image features and text embeddings were merged in the neural network, culminating in a Dense layer responsible for generating the caption corresponding to the input image.
 
 
 
@@ -100,4 +100,3 @@ o	The extracted image features and text embeddings were merged in the neural net
     [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akanksha-12831bb1)
     [![Leetcode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)](https://www.leetcode.com/akanksha185/)
 
-![image](https://github.com/akankshasharmadid/Image-Caption-Generator/assets/15958972/51937ea5-a3fd-4d80-b0e3-47c211e27264)
