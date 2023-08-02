@@ -103,11 +103,13 @@ Let's look at the images where the model is performing well.
 ![Positive Example 5](Positive/pos5.png)
 
 
-Now, let's take a look at images where the prediction is absurd.  
+<B>Now, let's take a look at images where the prediction is absurd.  </B>
+
 ![Negative Example 1](Negative/neg1.png)
 ![Negative Example 2](Negative/neg2.png)
 ![Negative Example 3](Negative/neg3.png)
 ![Negative Example 4](Negative/neg4.png)
+
 ![Negative Example 5](Negative/neg5.png)
 
 
