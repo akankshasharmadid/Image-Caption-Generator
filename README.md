@@ -9,6 +9,7 @@
 - [Methods Used](#methods-used)
 - [Technologies and Softwares](#technologies-and-softwares)
 - [Required Packages](#required-packages)
+- [Results](#results)
 - [Authors](#authors)
 
 
@@ -91,6 +92,23 @@ A new benchmark collection for sentence-based image description and search, cons
 -	textblob - Used for text processing and sentiment analysis.
 
 
+## Results
+[(Back to top)](#table-of-contents)
+Let's look at the images where the model is performing well. 
+
+![Positive Example 1](Positive/pos1.png)
+![Positive Example 2](Positive/pos2.png)
+![Positive Example 3](Positive/pos3.png)
+![Positive Example 4](Positive/pos4.png)
+![Positive Example 5](Positive/pos5.png)
+
+
+Now, let's take a look at images where the prediction is absurd.  
+![Negative Example 1](Negative/neg1.png)
+![Negative Example 2](Negative/neg2.png)
+![Negative Example 3](Negative/neg3.png)
+![Negative Example 4](Negative/neg4.png)
+![Negative Example 5](Negative/neg5.png)
 
 
 ## Authors
